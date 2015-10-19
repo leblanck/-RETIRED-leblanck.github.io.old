@@ -415,8 +415,8 @@ a {
 }
 
 a:hover {
-    text-decoration: none
-}
+    text-decoration: none;
+  }
 
 hr {
     border: 0;
@@ -735,28 +735,24 @@ article li:last-child {
     width: 48px
 }
 
-.work__logo.work__logo--beehive {
+.work__logo.work__logo--1 {
     background-image: url("/assets/images/work/icons/beehive.svg")
 }
 
-.work__logo.work__logo--grid {
+.work__logo.work__logo--2 {
     background-image: url("/assets/images/work/icons/grid.svg")
 }
 
-.work__logo.work__logo--css-workshop {
+.work__logo.work__logo--3 {
     background-image: url("/assets/images/work/icons/css-workshop.svg")
 }
 
-.work__logo.work__logo--citypak, .work__logo.work__logo--citypak-case-study {
+.work__logo.work__logo--4 .work__logo.5{
     background-image: url("/assets/images/work/icons/citypak.svg")
 }
 
-.work__logo.work__logo--checklist {
+.work__logo.work__logo--6 {
     background-image: url("/assets/images/work/icons/checklist.svg")
-}
-
-.work__logo.work__logo--vision {
-    background-image: url("/assets/images/work/icons/vision.svg")
 }
 
 .browser {
