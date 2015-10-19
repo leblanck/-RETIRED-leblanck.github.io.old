@@ -1,3 +1,5 @@
+/* BEGIN NORMALIZE.CSS*/
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
     font-family: sans-serif;
@@ -192,6 +194,9 @@ html {
     box-sizing: inherit
 }
 
+/* END NORMALIZE.CSS*/
+/* BEGIN CUSTOM CSS*/
+
 html {
     font: 400 100%/1.5 "proxima-nova", sans-serif;
     font-weight: 400;
@@ -314,7 +319,7 @@ nav {
 }
 
 .nav__item:hover {
-    color: #1a1a1a
+    color: #1a1a1a;
 }
 
 @media (min-width: 40em) {
@@ -352,7 +357,7 @@ footer .container {
 }
 
 .heart-icon {
-    background: url("img/heart.svg") no-repeat;
+    background: url("../img/heart.svg") no-repeat;
     display: inline-block;
     height: 12px;
     margin: 0 .1rem;
