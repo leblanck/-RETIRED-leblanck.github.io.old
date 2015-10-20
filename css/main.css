@@ -730,13 +730,13 @@ article li:last-child {
 
 .work__logo {
     background-repeat: no-repeat;
-    height: 48px;
+    height: 60px;
     margin: 0 auto 1.2rem;
-    width: 48px
+    width: 75px
 }
 
-.work__logo.work__logo--1 {
-    background-image: url("/assets/images/work/icons/beehive.svg")
+.work__logo.work__logo--borrow {
+    background-image: url("../img/borrow.png")
 }
 
 .work__logo.work__logo--2 {
