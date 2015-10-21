@@ -198,7 +198,7 @@ html {
 /* BEGIN CUSTOM CSS*/
 
 html {
-    font: 400 100%/1.5 "proxima-nova", sans-serif;
+    font: 400 100%/1.5 'Merriweather Sans', sans-serif;
     font-weight: 400;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -281,6 +281,8 @@ header .container {
 }
 
 .logo {
+    font-weight: 800;
+    font-family: 'Merriweather Sans', sans-serif;
     background: url("../img/logo.svg") no-repeat;
     width: 36px;
     height: 27px;
@@ -365,7 +367,7 @@ footer .container {
 }
 
 h1, h2, h3, h4 {
-    font: 700 100%/1.25 "proxima-nova", sans-serif;
+    font: 700 100%/1.25 'Merriweather Sans', sans-serif;
     margin-top: 0;
     margin-bottom: .5rem
 }
@@ -835,18 +837,6 @@ article li:last-child {
     font-family: 'Open Sans', sans-serif
 }
 
-.workshop {
-    list-style: none;
-    margin: 0;
-    padding: 0
-}
-
-.workshop__item {
-    background: #fff;
-    border-radius: 4px;
-    border: 1px solid #ddd;
-    margin-bottom: 1.5em
-}
 
 @media (min-width: 40em) {
     .workshop__item {
@@ -870,15 +860,6 @@ article li:last-child {
     }
 }
 
-.workshop__image {
-    background: url("/assets/images/workshop/zapier-logomark.svg") center no-repeat;
-    background-size: 40px;
-    border-bottom: 1px solid #ddd;
-    display: block;
-    height: 80px;
-    width: 100%
-}
-
 @media (min-width: 40em) {
     .workshop__image {
         background-size: 60px;
@@ -894,48 +875,6 @@ article li:last-child {
     .workshop__content {
         padding: 1.5rem
     }
-}
-
-.workshop__title {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-size: 1.2rem;
-    font-weight: normal;
-    margin-bottom: 1rem
-}
-
-.workshop__description {
-    color: #aaa;
-    font-size: 1rem;
-    margin-bottom: 1.5rem
-}
-
-.workshop__button {
-    background: #ff4a00;
-    border-radius: 4px;
-    border: none;
-    color: #fff;
-    font-size: .9rem;
-    font-weight: bold;
-    padding: .8rem 1.3rem;
-    transition: background .1s ease;
-    width: 100%
-}
-
-.workshop__button:focus {
-    outline: none
-}
-
-.workshop__button:hover {
-    background: #f04600
-}
-
-.workshop-header {
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-bottom: 1.5rem;
-    text-transform: uppercase
 }
 
 .medium, .large {
