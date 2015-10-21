@@ -776,7 +776,7 @@ article li:last-child {
 }
 
 .browser--mobile:last-of-type {
-    margin-bottom: 0
+    margin-bottom: 30px;
 }
 
 @media (min-width: 40em) {
