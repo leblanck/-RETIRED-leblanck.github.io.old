@@ -748,19 +748,19 @@ article li:last-child {
 }
 
 .work__logo.work__logo--borrow {
-    background-image: url("../img/borrow.png")
+    background-image: url("../img/borrow/borrow.png")
 }
 
 .work__logo.work__logo--2 {
-    background-image: url("/assets/images/work/icons/grid.svg")
+    background-image: url("/assets/images/md_card/md-logo.jpg")
 }
 
 .work__logo.work__logo--3 {
     background-image: url("/assets/images/work/icons/css-workshop.svg")
 }
 
-.work__logo.work__logo--4 .work__logo.5{
-    background-image: url("/assets/images/work/icons/citypak.svg")
+.work__logo.work__logo--4 {
+    background-image: url("../img/md_card/md-logotest.jpg")
 }
 
 .work__logo.work__logo--6 {
