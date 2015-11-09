@@ -11,6 +11,7 @@ body {
     margin: 0
 }
 
+
 article, aside, details, figcaption, figure, footer, header, hgroup,
 main, menu, nav, section, summary {
     display: block
@@ -213,7 +214,16 @@ html {
 
 body {
     background-color: #fff;
-    color: #1a1a1a
+    color: #262626
+}
+
+#top {
+  background: #262626;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 5px;
+  top: 0;
 }
 
 .container {
