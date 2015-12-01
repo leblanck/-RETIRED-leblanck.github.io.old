@@ -291,12 +291,12 @@ header .container {
 }
 
 .logo {
-    font-weight: 800;
+    font-weight: 900;
     font-family: 'Merriweather Sans', sans-serif;
-    background: url("../img/logo.svg") no-repeat;
-    width: 36px;
+    background: url("../img/logoNO.svg") no-repeat;
+    width: 75px;
     height: 27px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 @media (min-width: 40em) {
@@ -752,19 +752,23 @@ article li:last-child {
 }
 
 .work__logo.work__logo--2 {
-    background-image: url("/assets/images/md_card/md-logo.jpg")
+    background-image: url("../img/ux_icon.svg")
 }
 
 .work__logo.work__logo--3 {
-    background-image: url("/assets/images/work/icons/css-workshop.svg")
+    background-image: url("../img/cards_icon.svg")
 }
 
 .work__logo.work__logo--4 {
-    background-image: url("../img/md_card/md-logotest.jpg")
+    background-image: url("../img/cards_icon.svg")
+}
+
+.work__logo.work__logo--5 {
+    background-image: url("../img/cards_icon.svg")
 }
 
 .work__logo.work__logo--6 {
-    background-image: url("/assets/images/work/icons/checklist.svg")
+    background-image: url("../img/photo_icon.svg")
 }
 
 .browser {
@@ -776,13 +780,13 @@ article li:last-child {
 }
 
 .browser img {
-    margin: 0
+    margin: 0;
 }
 
 .browser--mobile {
     margin: 0 auto 1.5rem;
     max-width: 20rem;
-    max-height: 30rem
+    max-height: 30rem;
 }
 
 .browser--mobile:last-of-type {
@@ -793,11 +797,11 @@ article li:last-child {
     .browser--mobile {
         float: left;
         margin: 0;
-        width: 48%
+        width: 48%;
     }
 
     .browser--mobile:last-of-type {
-        margin-left: 4%
+        margin-left: 4%;
     }
 
     .browser--mobile:only-of-type {
@@ -939,4 +943,22 @@ article li:last-child {
 
 .container:after, .row:after, .post-footer:after, .work:after, .browser__header:after, .spotlights:after, .workshop__item:after {
     clear: both
+}
+
+
+.bib{
+margin-left: 140px;
+margin-bottom: -15px;
+}
+
+
+.bib--img {
+  width: 175px;
+  margin-left: 10px;
+}
+
+@media (min-width: 40em) {
+    .bib--img {
+        margin-left: 150px;
+      }
 }
