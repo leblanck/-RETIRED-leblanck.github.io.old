@@ -7,6 +7,11 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
+@@font-face {
+  font-family: RuffleBeauty;
+  src: url(../fonts/RuffleBeauty.otf);
+}
+
 body {
     margin: 0
 }
@@ -383,8 +388,9 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 2.4rem;
-    margin-bottom: 1rem
+    font-size: 4.2rem;
+    margin-bottom: 1rem;
+    font-family: RuffleBeauty;
 }
 
 h2 {
