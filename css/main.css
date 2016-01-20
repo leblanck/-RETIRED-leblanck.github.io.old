@@ -17,7 +17,7 @@ body {
 }
 
 
-article, aside, details, figcaption, figure, footer, header, hgroup,
+ aside, details, figcaption, figure, footer, header, hgroup,
 main, menu, nav, section, summary {
     display: block
 }
@@ -758,11 +758,11 @@ article li:last-child {
 }
 
 .work__logo.work__logo--2 {
-    background-image: url("../img/ux_icon.svg")
+    background-image: url("../img/skip_logo.png")
 }
 
 .work__logo.work__logo--3 {
-    background-image: url("../img/cards_icon.svg")
+    background-image: url("../img/ux_icon.svg")
 }
 
 .work__logo.work__logo--4 {
@@ -770,7 +770,7 @@ article li:last-child {
 }
 
 .work__logo.work__logo--5 {
-    background-image: url("../img/cards_icon.svg")
+    background-image: url("../img/graphic_icon.svg")
 }
 
 .work__logo.work__logo--6 {
@@ -786,7 +786,7 @@ article li:last-child {
 }
 
 .browser img {
-    margin: 0;
+    margin-bottom: 0px;
 }
 
 .browser--mobile {
@@ -813,92 +813,6 @@ article li:last-child {
     .browser--mobile:only-of-type {
         margin-left: 0
     }
-}
-
-.browser__header {
-    background: #eee;
-    border-radius: 4px 4px 0 0;
-    padding: .6rem .5rem
-}
-
-.spotlights {
-    list-style: none;
-    margin: 0;
-    padding: 0
-}
-
-.spotlights__item {
-    background: #ccc;
-    border-radius: 60%;
-    display: block;
-    float: left;
-    height: 10px;
-    margin-bottom: 0;
-    margin-right: .3rem;
-    width: 10px
-}
-
-.mobile-first {
-    color: #4e5b61;
-    font: 100%/1.5 'Open Sans', sans-serif
-}
-
-.mobile-first body {
-    background-color: #f8f8f8
-}
-
-.mobile-first .container {
-    max-width: 1200px;
-    margin: 1.5rem auto
-}
-
-.mobile-first h1, .mobile-first h3 {
-    color: #4e5b61;
-    font-family: 'Open Sans', sans-serif
-}
-
-
-@media (min-width: 40em) {
-    .workshop__item {
-        float: left;
-        margin-left: 4%;
-        width: 48%
-    }
-
-    .workshop__item:first-child, .workshop__item:last-child {
-        margin-left: 0
-    }
-}
-
-@media (min-width: 64em) {
-    .workshop__item {
-        width: 30%
-    }
-
-    .workshop__item:last-child {
-        margin-left: 4%
-    }
-}
-
-@media (min-width: 40em) {
-    .workshop__image {
-        background-size: 60px;
-        height: 150px
-    }
-}
-
-.workshop__content {
-    padding: 1.2rem
-}
-
-@media (min-width: 40em) {
-    .workshop__content {
-        padding: 1.5rem
-    }
-}
-
-.medium, .large {
-    display: none
 }
 
 @media (min-width: 40em) {
