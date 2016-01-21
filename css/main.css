@@ -9,7 +9,10 @@ html {
 
 @@font-face {
   font-family: RuffleBeauty;
-  src: url(../fonts/RuffleBeauty.otf);
+  src: url('../fonts/RuffleBeauty.otf'),
+       url('../fonts/RuffleBeauty.ttf') format('truetype'),
+       url('../fonts/RuffleBeauty.woff2') format('woff2'),
+       url('../fonts/RuffleBeauty.woff') format('woff');
 }
 
 body {
