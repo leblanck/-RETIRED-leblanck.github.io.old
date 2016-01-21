@@ -301,7 +301,6 @@ header .container {
 .logo {
     font-weight: 900;
     font-family: 'Merriweather Sans', sans-serif;
-    background: url("../img/logoNO.svg") no-repeat;
     width: 75px;
     height: 27px;
     text-decoration: none;
@@ -393,7 +392,7 @@ h1, h2, h3, h4 {
 h1 {
     font-size: 4.2rem;
     margin-bottom: 1rem;
-    font-family: RuffleBeauty;
+    font-family: 'RuffleBeauty', 'Merriweather Sans';
 }
 
 h2 {
@@ -761,7 +760,7 @@ article li:last-child {
 }
 
 .work__logo.work__logo--2 {
-    background-image: url("../img/skip_logo.png")
+    background-image: url("../img/skip_logo.svg")
 }
 
 .work__logo.work__logo--3 {
