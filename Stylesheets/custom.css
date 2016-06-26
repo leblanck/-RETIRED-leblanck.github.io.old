@@ -3,6 +3,9 @@ nav, section {
     display: block
 }
 
+.subhead h1 {
+  margin-bottom: 200px;
+}
 
 [hidden] {
     display: none
@@ -951,6 +954,7 @@ select.selWide {
     width: 100%
 }
 
+
 .work--content {
 display: flex;
 align-items: center;
@@ -975,6 +979,11 @@ img .work--icon:hover {
   transition: .3s ease all
 }
 
+@media(max-width:800px){
+  .work--icon {
+    width: 200px;
+  }
+}
 
 @media(max-width:450px) {
   .work--content--row {
