@@ -991,8 +991,8 @@ flex-direction: row;
 }
 
 .work--content--item {
-  min-width: 100px;
-  min-height: 100px;
+  min-width: 500px;
+  min-height: 500px;
   background-color: #fff;
   margin-right: 50px;
   margin-top: 400px;
@@ -1006,6 +1006,8 @@ flex-direction: row;
 
   .work--content--item {
     margin-right: 5px;
-    margin-top: 5px;
+    margin-top: 50px;
+    max-width: 100px;
+    max-height: 100px;
   }
 }
