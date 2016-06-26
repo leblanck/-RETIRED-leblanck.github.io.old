@@ -187,34 +187,6 @@ nav ul li.active a {
 }
 
 
-
-.partnersContent {
-    margin: 0 -15px
-}
-
-.partnersContent .partnerItem {
-    padding: 0 15px
-}
-
-.partnersContent .parItem {
-    background-position: 50% 50%;
-    background-size: 240px 160px;
-    background-repeat: no-repeat;
-    height: 160px;
-    display: block;
-    margin-bottom: 20px
-}
-
-.partnersContent .parItem:hover {
-    background-color: #051E3C
-}
-
-.partnersContent .parItem.par01 {
-    background-image: url(../Content/img/partner01_240x160.svg)
-}
-
-
-
 .btnDown a.btn {
     width: 400px;
     display: inline-block;
@@ -993,9 +965,14 @@ flex-direction: row;
 .work--content--item {
   min-width: 200px;
   min-height: 200px;
-  background-color: #fff;
+
   margin-right: 50px;
-  margin-top: 400px;
+  margin-top: 350px;
+}
+
+img .work--icon:hover {
+  color: yellow;
+  transition: .3s ease all
 }
 
 
@@ -1005,9 +982,13 @@ flex-direction: row;
   }
 
   .work--content--item {
-    margin-right: 5px;
+    margin-left: -75px;
     margin-top: 50px;
     max-width: 100px;
     max-height: 100px;
+  }
+
+  .work--icon {
+    width: 150px;
   }
 }
