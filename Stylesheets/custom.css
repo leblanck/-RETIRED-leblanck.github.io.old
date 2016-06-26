@@ -991,8 +991,8 @@ flex-direction: row;
 }
 
 .work--content--item {
-  min-width: 500px;
-  min-height: 500px;
+  min-width: 200px;
+  min-height: 200px;
   background-color: #fff;
   margin-right: 50px;
   margin-top: 400px;
