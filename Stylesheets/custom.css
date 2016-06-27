@@ -132,6 +132,10 @@ nav ul li.active a {
     background-color: #050505;
 }
 
+.mainSection.secColor2 {
+    background-color: #fff;
+}
+
 .mainSection.sec01 {
     background: url(../Images/meDark.jpg) no-repeat;
     background-size: cover;
