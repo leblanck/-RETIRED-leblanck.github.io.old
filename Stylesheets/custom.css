@@ -134,6 +134,7 @@ nav ul li.active a {
 
 .mainSection.secColor2 {
     background-color: #fff;
+    color: #050505;
 }
 
 .mainSection.sec01 {
@@ -151,8 +152,10 @@ nav ul li.active a {
 .mainSection h1 {
     font-size: 38px;
     font-weight: 200;
-    color: #fff
+    color: #fff;
 }
+
+
 
 .headContent p {
     font-size: 16px;
@@ -168,6 +171,12 @@ nav ul li.active a {
     height: 100%
 }
 
+.showboxmainWork {
+    position: relative;
+    min-height: 1000px;
+    width: 100%;
+    height: 100%
+}
 
 
 
@@ -1004,4 +1013,67 @@ img .work--icon:hover {
   .work--icon {
     width: 150px;
   }
+}
+
+
+
+
+.work--content--row--left {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+
+.exampleHeader {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 500px;
+  border-bottom: 1px solid #D7DBDD;
+}
+.example--image {
+  width: 250px;
+}
+
+
+
+
+.featureListItem {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.featureListItem + .featureListItem {
+  border-top: 1px solid #D7DBDD;
+}
+
+.featureListItem--reverse {
+  flex-direction: row-reverse;
+}
+
+.featureListItem__icon,
+.featureListItem__description {
+  padding: 5px 15px;
+}
+
+.featureListItem__icon {
+  line-height: 0;
+  margin-right: 50px;
+}
+
+.featureListItem__description {
+  color: #86969C;
+  font-size: 12px;
+  border: 1px solid red;
+  margin-left: 75px;
+}
+
+@media(max-width:450px) {
+.example--image {
+  width: 75px;
+  }
+
 }
