@@ -144,7 +144,7 @@ h1 {
 .body-link {
   border-bottom: 3px black solid;
 }
-.body-link: hover {
+.body-link:hover {
   border-bottom: 3px solid pink;
 }
 
@@ -152,11 +152,22 @@ h1 {
   width: 300px;
 }
 
+.me-wide {
+  width: 275px;
+  margin-bottom: -100px;
+  padding-bottom: 30px;
+}
+
 @media(min-width:450px) {
 .work-laptop {
-  width: 600px;
+  width: 100px;
 }
   h1 {
     font-size: 75px;
+  }
+
+  .me-wide {
+    width: 1400px;
+    margin-bottom: -100px;
   }
 }
