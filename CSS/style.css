@@ -126,8 +126,26 @@ h1 {
   padding: 10px;
 }
 
+.div-left {
+  float: left;
+  width: 75%;
+}
+
+.div-right {
+  float: right;
+  height: 100%;
+  width: 25%;
+}
+
 .contact-link {
   padding: 10px;
+}
+
+.body-link {
+  border-bottom: 3px black solid;
+}
+.body-link: hover {
+  border-bottom: 3px solid pink;
 }
 
 .work-laptop {
