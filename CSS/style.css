@@ -160,7 +160,7 @@ h1 {
 
 @media(min-width:450px) {
 .work-laptop {
-  width: 100px;
+  width: 500px;
 }
   h1 {
     font-size: 75px;
@@ -169,5 +169,11 @@ h1 {
   .me-wide {
     width: 100%;
     margin-bottom: -100px;
+  }
+}
+
+@media(min-width:900px) {
+.work-laptop {
+  width: 650px;
   }
 }
