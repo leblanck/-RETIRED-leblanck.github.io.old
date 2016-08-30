@@ -40,8 +40,17 @@ h2 {
   font: bold 2.8rem "Work Sans", "Arial Black", Gadget, sans-serif;
   text-transform: uppercase;
   letter-spacing: 5px;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
+h3 {
+  font: bold 2rem "Work Sans", "Arial Black", Gadget, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 2em;
+  color: grey;
+}
+
+
 
 nav {
   mix-blend-mode: difference;
@@ -145,7 +154,15 @@ h1 {
   border-bottom: 3px black solid;
 }
 .body-link:hover {
-  border-bottom: 3px solid pink;
+  border-bottom: 3px solid #f4cac4;
+}
+
+
+.body-link-white {
+  border-bottom: 3px white solid;
+}
+.body-link-white:hover {
+  border-bottom: 3px solid #f4cac4;
 }
 
 .work-laptop {
@@ -160,7 +177,7 @@ h1 {
 
 @media(min-width:450px) {
 .work-laptop {
-  width: 500px;
+  width: 300px;
 }
   h1 {
     font-size: 75px;
@@ -174,6 +191,6 @@ h1 {
 
 @media(min-width:900px) {
 .work-laptop {
-  width: 650px;
+  width: 450px;
   }
 }
