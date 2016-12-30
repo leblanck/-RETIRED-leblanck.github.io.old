@@ -171,9 +171,13 @@ body {
   #nav-logo {
     width: 150px;
     padding-bottom: 800px;
+    padding-right: -500px;
   }
   #section-header {
     padding-bottom: 25px;
+  }
+  #nav-fullscreen ul {
+    padding-right: 175px;
   }
 }
 
